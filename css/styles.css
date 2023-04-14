@@ -261,6 +261,8 @@ a {
 .contacts-list-link:focus .icon-telegram,
 .contacts-list-link:hover .icon-linkedin,
 .contacts-list-link:focus .icon-linkedin,
+.contacts-list-link:hover .icon-map,
+.contacts-list-link:focus .icon-map,
 .contacts-list-link:hover .icon-github,
 .contacts-list-link:focus .icon-github {
   fill: var(--accent-color);
@@ -274,7 +276,8 @@ a {
 .hard-skills-list,
 .soft-skills-list,
 .languages-list {
-  padding: 0 20px 0 30px;
+  font-size: 17px;
+  padding: 0 20px 0 40px;
 }
 .languages {
   flex-grow: 1;
@@ -302,4 +305,7 @@ ul.education-list {
 .section-title {
   background-color: var(--sec-background-color);
   color: var(--white-text-color);
+}
+.summary-text {
+  padding: 0 20px;
 }
