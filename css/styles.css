@@ -1,0 +1,330 @@
+:root {
+  --accent-color: #2196f3;
+  --main-text-color: #757575;
+  --main-header-color: #212121;
+  --main-background-color: #e5e5e5;
+  --sec-background-color: #f5f4fa;
+  --white-text-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-background-color);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  background-color: var(--white-text-color);
+  width: 1200px;
+  /* padding: 20px; */
+  margin: 40px auto;
+  /* margin-right: auto;
+  margin-left: auto; */
+  box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+  display: flex;
+  /* background-color: aqua; */
+  align-items: flex-start;
+  /* box-shadow: 6px, 6px, 20px, rgba(0, 0, 0, 0.1); */
+}
+.information {
+  width: 400px;
+  height: auto;
+  background-color: #1e2939;
+  color: var(--white-text-color);
+  font-size: 18px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; */
+  /* padding-top: 20px; */
+}
+.section {
+  padding: 15px 20px 0 20px;
+}
+.section.aside {
+  padding: 0;
+}
+.section.contacts {
+}
+.section:last-child {
+  padding-bottom: 15px;
+}
+.section.avatar {
+  text-align: center;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.section-title-aside {
+  text-align: center;
+  /* margin: 0;
+  margin-bottom: 0 0 30px 0; */
+}
+.link-decoration {
+  text-decoration: none;
+}
+.list-decoration {
+  padding: 0;
+  margin: 0;
+}
+
+.projects .icon-github {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--main-header-color);
+}
+/* .section {
+  border: 2px solid red;
+} */
+.about-me {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
+.summary {
+  /* background-image: url('../images/Beige.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.photo {
+  width: 300px;
+  border-radius: 20%;
+  border: 3px solid var(--accent-color);
+  /* height: auto; */
+}
+.summary-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-title {
+  text-align: center;
+}
+.section-title-aside {
+  color: var(--accent-color);
+  margin-top: 0;
+  /* margin-bottom: 20px; */
+  border-bottom: 2px solid var(--accent-color);
+  border-top: 2px solid var(--accent-color);
+  padding: 30px 0;
+}
+.summary-header {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0;
+}
+.summary-description {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin: 10px 0;
+}
+.summary-text {
+  /* font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em; */
+  margin: 0;
+  text-indent: 25px;
+}
+/* Projects */
+.projects-list {
+  padding: 0;
+  list-style: none;
+}
+.section {
+}
+.projects {
+}
+.section-title {
+}
+.projects-list {
+}
+.projects-list-item {
+}
+.projects-list-item:last-child p {
+  margin: 10px 0 0 0;
+}
+.projects-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 700;
+}
+.projects-link:hover {
+  color: var(--accent-color);
+}
+
+.projects-link:hover .icon-github {
+  fill: var(--accent-color);
+}
+
+.projects-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.project-des-decoration {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.visuallny-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Work experience */
+.section {
+}
+.work {
+}
+.section-title {
+}
+.work-list {
+  margin: 0;
+  padding-left: 10px;
+}
+.work-list-item:last-child p {
+  margin: 0;
+}
+.work-description {
+  margin: 0 0 10px 0;
+}
+
+/* Education */
+.section {
+}
+.education {
+}
+.section-title {
+}
+.education-list {
+  margin: 0;
+  padding-left: 10px;
+}
+.education-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.education-description {
+  font-weight: 700;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.education-description:hover {
+  color: var(--accent-color);
+}
+.education-major {
+  text-indent: 25px;
+  margin: 0;
+}
+.certificate {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 700;
+}
+.certificate:hover {
+  color: var(--accent-color);
+}
+/* section contacts */
+
+.avatar {
+}
+.photo {
+}
+
+.section-title {
+}
+.list-decoration {
+}
+.contacts-list {
+  padding-left: 20px;
+}
+
+.contacts-list-link {
+  font-weight: 700;
+}
+.contacts-list__icon {
+  fill: var(--white-text-color);
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-phone {
+}
+.contacts-list-text {
+}
+.icon-email {
+}
+.icon-telegram {
+}
+.icon-linkedin {
+}
+.icon-github {
+}
+.contacts-list {
+  list-style: none;
+}
+.contacts-list-item:not(:last-child),
+.hard-skills-list-item:not(:last-child),
+.soft-skills-list-item:not(:last-child),
+.languages-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: var(--accent-color);
+}
+.contacts-list-link:hover .icon-phone,
+.contacts-list-link:focus .icon-phone,
+.contacts-list-link:hover .icon-email,
+.contacts-list-link:focus .icon-email,
+.contacts-list-link:hover .icon-telegram,
+.contacts-list-link:focus .icon-telegram,
+.contacts-list-link:hover .icon-linkedin,
+.contacts-list-link:focus .icon-linkedin,
+.contacts-list-link:hover .icon-github,
+.contacts-list-link:focus .icon-github {
+  fill: var(--accent-color);
+}
+.contacts-list-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+}
+
+.hard-skills-list,
+.soft-skills-list,
+.languages-list {
+  padding: 0 20px 0 30px;
+}
+.languages {
+  height: 480px;
+}
+
+.section-decoration {
+}
+.section.aside:not(:last-child) {
+  margin-bottom: 30px;
+}
+.section.avatar {
+  padding-top: 20px;
+}
