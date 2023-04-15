@@ -19,7 +19,7 @@ a {
 
 .container {
   /* background-color: var(--white-text-color); */
-  width: 1600px;
+  width: 1280px;
   /* 
   outline: 2px solid green; */
 
@@ -38,7 +38,7 @@ a {
 }
 .information {
   width: 400px;
-  height: 1960px;
+  height: 2167px;
   background-color: #1e2939;
   color: var(--white-text-color);
   font-size: 18px;
