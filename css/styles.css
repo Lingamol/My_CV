@@ -10,7 +10,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-text-color);
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 a {
   color: inherit;
@@ -19,9 +19,9 @@ a {
 
 .container {
   /* background-color: var(--white-text-color); */
-  width: 1280px;
-
-  outline: 2px solid green;
+  width: 1600px;
+  /* 
+  outline: 2px solid green; */
 
   margin: 0 auto;
 }
@@ -38,7 +38,7 @@ a {
 }
 .information {
   width: 400px;
-  height: 2170px;
+  height: 1960px;
   background-color: #1e2939;
   color: var(--white-text-color);
   font-size: 18px;
