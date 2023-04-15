@@ -32,7 +32,8 @@ a {
 }
 
 .main-content {
-  width: 100%;
+  /* width: 100%; */
+  width: 1280px;
   background-color: var(--white-text-color);
   display: flex;
   /* background-color: aqua; */
@@ -41,7 +42,7 @@ a {
 }
 .information {
   width: 400px;
-  height: 1900px;
+  height: 2170px;
   background-color: #1e2939;
   color: var(--white-text-color);
   font-size: 18px;
